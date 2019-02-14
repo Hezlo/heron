@@ -1,0 +1,83 @@
+p /*on applique a toute balise p*/
+{
+    color:blue;
+    font:12pt;
+    font-family:arial;
+    
+}
+
+p, title /*on applique a toute balise p et a toute balise titre */
+{
+    color:blue;
+    font:12pt;    
+    
+}
+
+h1 
+{
+    
+    border :2pt (255, 255, 0) dotted;
+    /*on applique une bordure en pontillés */
+    box-shadow:5pt 5pt 20pt red;
+    text-shadow:7pt 10pt 20pt red;
+}
+
+body 
+{
+
+    background-color:#9683EC;
+    background: url("btAdore-Purple.png") fixed no-repeat top left, #9683EC;
+    /* on met une image de fond qui ne bouge pas en haut et à gauche et comme
+     fond la couleur #9683EC*/
+}
+
+body h1 /*on applique a la balise h1 qui se trouve au sein de la balise body*/
+{       
+    text-transform:capitalize;
+    text-align :center;
+}
+
+hr
+{
+    text-align:left;
+}
+
+h1+p /*on applique au premier paragraphe qui succède la balise h1 
+la mise en forme suivante*/
+{       
+   
+}
+
+
+.titrespecial 
+/*grace a l'attribut class on identifie la balise titrespecial.Le point denote
+ faire reference. class="titrespecial" peut etre associée a n'importe quelle 
+ balise pour lui appliquer a elle uniquement et non pas toutes les balises
+ de meme nom */
+{
+    font-weight:bold;
+}
+
+p:hover /* Lors du survol du pagraphe ou d'un lien a*/
+{
+    background-color:green;
+}
+
+
+a:active /* Lors d'un clic sur un lien a*/
+{
+    color:green;
+}
+
+a:visited /* Quand un lien a a déja ete visite*/
+{
+    color:grey;
+}
+ 
+ /*pour centrer un bloc
+p
+{
+width:200px;
+margin:auto;
+}*/
+

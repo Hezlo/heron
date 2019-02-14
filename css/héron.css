@@ -1,0 +1,32 @@
+#biblio{
+	text-align:left;
+	left:40%;
+	margin-left:40%;
+	width:30%
+	
+}
+
+.cellule{
+	width:50%;
+	margin: 0 auto;
+}
+
+#bouton{
+	position:relative;
+	width:150px;
+	height:50px;
+	margin: 0 auto;
+	margin-bottom:40px;
+	line-height:45px;
+	text-align:center;
+	outline:2px solid grey;
+	z-index:0;
+}
+
+.hoverable{
+	background-color:rgba(255, 255, 255, 1.0);
+}
+
+.hoverable:hover{
+	background-color: rgba(19, 97, 221, 0.4);
+}
